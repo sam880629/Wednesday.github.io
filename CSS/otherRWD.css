@@ -1,0 +1,31 @@
+@media(max-width:992px) {
+    /* 其他菜單輪波圖 */
+    .menu_content-lg {
+        display: block;
+        width: 100%;
+        padding: 40px;
+    }
+    /* 其他菜單一般顯示 */
+    .menu_content-xl {
+        display: none;
+    }
+    /* 各個輪波圖 */
+    #fryfood_Carousel,
+    #sala_Carousel,
+    #drink_Carousel {
+        width: 220px;
+        height: 300px;
+    }
+    /* 各個輪波圖圖片 */
+    #fryfood_Carousel > div div img,
+    #sala_Carousel > div div img,
+    #drink_Carousel >div div img {
+        height: 300px;
+        object-fit: cover;
+    }
+    #fryfood_Carousel > div ,
+    #sala_Carousel > div  ,
+    #drink_Carousel >div  {
+        box-shadow: 0px 10px 13px -7px #000000, 12px 9px 24px 7px rgba(0,0,0,0.86);
+    }
+}

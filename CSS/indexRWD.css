@@ -1,0 +1,88 @@
+@media screen and (max-width: 992px) {
+    /* 介紹影片_內容_1 */
+    .foodvideo_content1{
+        top: 120px;
+        left: 50px;
+    }
+    /* 介紹影片_內容_2 */
+    .foodvideo_content2 {
+        top: 160px;
+        left: 30px;
+        font-size: 68px;
+    }
+    /* 介紹影片_內容_3*/
+    .foodvideo_content3 {
+        top: 205px;
+        left: 50px;
+        font-size: 12px;
+    }
+    /* 菜單按鈕 */
+    .Menu_button {
+        width: 120px;
+        height: 45px;
+        line-height: 40px;
+        bottom: 120px;
+        left: 60px;
+    }
+    /* 關於我們內容 */
+    .about_frontpage {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .about_frontpage>p {
+        width: 100%;
+        align-self: center;
+        margin-top: 20px;
+        padding: 10px 30px 0 30px;
+    }
+
+    /* 三大菜單 */
+    .food_frontpage {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    /* 首頁_漢堡、披薩、其他圖片設定 */
+    .Hamburger_frontpage img,
+    .Pizza_frontpage img,
+    .other_frontpage img {
+        object-fit: cover;
+        width: 500px;
+        height: 250px;
+        border-radius: 5px;
+
+    }
+
+    /* 三大菜單文字 */
+    .Hamburger_frontpage>div a p,
+    .Pizza_frontpage>div a p,
+    .other_frontpage>div a p {
+        font-size: 60px;
+        width: 100%;
+    }
+
+    /* 三大菜單滑動效果 */
+    .Hamburger_frontpage div:hover a>p,
+    .Pizza_frontpage>div:hover a>p,
+    .other_frontpage>div:hover a>p {
+        line-height: 250px;
+        height: 100%;
+    }
+
+
+} 
+@media screen and (max-width: 576px) {
+    /* 介紹影片_內容_2 */
+    .foodvideo_content2 {
+        font-size: 50px;
+    }
+    /* 首頁_漢堡、披薩、其他圖片設定 */
+    .Hamburger_frontpage img,
+    .Pizza_frontpage img,
+    .other_frontpage img {
+        width: 300px;
+    }
+}

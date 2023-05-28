@@ -1,0 +1,31 @@
+@media (max-width:992px) {
+    .menu_content div[class^="pizza"] {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu_content div[class^="pizza"] div[class$="_box"] {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    /* 披薩圖示*/
+    .pizza_one div>img,
+    .pizza_two div>img,
+    .pizza_three div>img {
+        width: 165px;
+        height: 230px;
+        object-fit: cover;
+    }
+
+    .menu_content div[class^="pizza"] div[class$="_box"] div[class$="_text"] {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 220px;
+        text-align: center;
+    }
+}

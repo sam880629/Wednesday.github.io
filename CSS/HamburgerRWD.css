@@ -1,0 +1,36 @@
+@media screen and (max-width:992px) {
+    .pig,
+    .chicken,
+    .beef {
+        flex-direction: column;
+    }
+}
+@media  screen and (max-width:576px) {
+    /* 漢堡圖示*/
+.menu_content  div div[class$="_box"] >img{
+    width: 160px;
+    height: 220px;
+    object-fit: cover;
+}
+/* 漢堡內容 */
+.menu_content  div div[class$="_box"] > div{
+    width: 140px;
+    height: 220px;
+    font-size: 16px;
+}
+/* 餐點名稱 */
+.menu_content  div div[class$="_box"] > div  >ul{
+    font-size: 18px;
+    width: 100%;
+    padding: 0px;
+    padding-top: 10px;
+
+}
+/* 餐點成份 */
+.menu_content  div div[class$="_box"] > div >ul >li{
+    color: #FFF;
+    font-size: 14px;
+    list-style-type: none;
+    padding: 5px;
+}
+}

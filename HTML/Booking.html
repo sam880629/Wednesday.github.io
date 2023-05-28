@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wednesday線上訂位</title>
+    <link rel="stylesheet" href="../Boostrap/_css/bootstrap.css">
+    <script src="../Boostrap/_js/bootstrap.min.js"></script>
+    <script src="../Boostrap/_js/popper.min.js"></script>
+    <script src="../JS/Booking.js"></script>
+    <link rel="stylesheet" href="../CSS/Booking.css">
+    <link rel="stylesheet" href="../CSS/headerRWD.css">
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="../JS/go_top.js"></script>
+    <link rel="Shortcut Icon" type="image/x-icon" href="../外部檔案/icon/icons8-pizza-64.png" />
+</head>
+
+<body>
+    <!-- 導覽列 -->
+    <header>
+        <div id="go_top" class="headerdiv">
+            <div class=" headercontent_img ">
+                <img src="../外部檔案/設計/LOGO.png">
+            </div>
+            <div class="headercontent headercontent_smN">
+                <a href="../HTML/首頁.html">首頁</a>
+            </div>
+            <div class="headercontent headercontent_menu headercontent_smN">
+                <p>美味菜單</p>
+                <div class="dropdown-content">
+                    <a href="../HTML/Menu_Hamburger.html">漢堡</a>
+                    <a href="../HTML/Menu_Pizza.html">披薩</a>
+                    <a href="../HTML/Menu_other.html">其他</a>
+                </div>
+            </div>
+            <div class="headercontent headercontent_smN">
+                <a href="../HTML/Booking.html">線上訂位</a>
+            </div>
+            <div class="headercontent headercontent_smN">
+                <a href="../HTML/Location.html">店址位置</a>
+            </div>
+            <div class="headercontent apply_headercontent headercontent_smN">
+                <a href="https://www.104.com.tw/jobs/main/" target="_blank">徵人訊息</a>
+            </div>
+            <div id="icon" class="headercontent_icon">
+                <img src="../外部檔案/icon/icons8-instagram-50.png">
+                <img src="../外部檔案/icon/FB.png ">
+                <img src="../外部檔案/icon/line.png ">
+            </div>
+            <a class="headerbar" href="#">
+                ☰
+            </a>
+        </div>
+    </header>
+    <!-- 內容 -->
+    <main>
+        <div class="introduce">
+            <div class="introduce_img">
+                <img src="../外部檔案/設計/店址介紹.jpg">
+            </div>
+            <div class="introduce_text">
+                <p>線上訂位</p>
+            </div>
+        </div>
+
+        </div>
+        <div class="sheet">
+            <form class="booking_sheet  flex-md-column">
+                <div class="flex-md-row ">
+                    <div class="sheet_name w-100">
+                        <label for="">姓名</label>
+                        <br>
+                        <input type="text" placeholder="您的姓名">
+                    </div>
+                    <div class="sheet_phone w-100">
+                        <label for="">電話</label>
+                        <br>
+                        <input type="tel" placeholder="您的電話號碼">
+                    </div>
+                </div>
+                <div>
+                    <div class="sheet_email">
+                        <label for="">電子郵件</label>
+                        <br>
+                        <input type="email" placeholder="您的電子郵件">
+                    </div>
+                </div>
+                <div class="flex-md-row m-0 ">
+                    <div class="sheet_people flex-1 w-100">
+                        <label for="">大人</label>
+                        <br>
+                        <input type="text" placeholder="幾位">
+                    </div>
+                    <div class="sheet_people flex-1 w-100">
+                        <label for="">小孩</label>
+                        <br>
+                        <input type="text" placeholder="幾位">
+                    </div>
+                </div>
+                <div class="flex-md-row m-0">
+                    <div class="sheet_date w-100">
+                        <label for="">日期</label>
+                        <br>
+                        <input type="date">
+                    </div>
+                    <div class="sheet_time w-100">
+                        <label for="">時間</label>
+                        <br>
+                        <input type="time" class="w-75">
+                    </div>
+                </div>
+                <div>
+                    <div class="sheet_text">
+                        <label for="">訊息</label>
+                        <br>
+                        <input type="text" placeholder="備註">
+                    </div>
+                </div>
+
+                <div class="sheet_button  ">
+                    <button type="submit" onclick="book_submit()">
+                        <span>寄出</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+    <div class="go_top">
+        <p>TOP</p>
+    </div>
+    <footer>
+        <div class="foot_content">
+
+            <div class="foot_content_number">
+                <h5 class="mt-4"> 加盟資訊</h5>
+                <div>
+                    <img src="../外部檔案/icon/定位.png">
+                    <span> 408台中市南屯區黎明路二段658號</span>
+                </div>
+                <div>
+                    <img src="../外部檔案/icon/Phone_Icon.png">
+                    <span> +886 4 13524696</span>
+                </div>
+            </div>
+            <div class="foot_content_open_time">
+                <h5 class="mt-4"> 營業時間</h5>
+                <span> 週一 到 週四 <br> 17:30~23:30
+                    <br> 週五 到 週日
+                    <br> 11:30 - 14:30,17:30 - 23:30
+                </span>
+            </div>
+
+        </div>
+        <div class="foot_bottom">
+            <span>Copyright © 2023 Dawn. All Rights Reserved.</span>
+            <img src="../外部檔案/icon/icons8-instagram-50.png">
+            <img src="../外部檔案/icon/FB.png ">
+            <img src="../外部檔案/icon/line.png ">
+        </div>
+
+    </footer>
+</body>
+
+</html>

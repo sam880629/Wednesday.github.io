@@ -1,0 +1,52 @@
+@media (max-width: 576px){
+    /* 頁尾內容 */
+.foot_content {
+    width: 100%;
+    background-color: #0f4c5c;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    font-size: 10px;
+}
+/* 聯絡資訊 */
+.foot_content_number{
+    flex:1;
+    
+}
+.foot_content_number > div{
+    margin-top: 15px;
+}
+.foot_content_number > div >img{
+    width: 20px;
+    margin-right: 10px;
+}
+.foot_content_open_time{
+    flex:1;  
+}
+.foot_content_open_time > span{
+    display: inline-block; 
+    line-height: 25px;
+}
+.foot_content {
+    color: #FFF;
+}
+
+
+.foot_bottom {
+    background-color: #237182;
+    height: 30px;
+    text-align: center;
+}
+.foot_bottom > span {
+    color: #DDD;
+    font-size: 10px;
+    padding: 10px;
+}
+/* 頁尾icon */
+.foot_bottom > img {
+    width: 25px;
+    padding: 5px;
+}
+}
