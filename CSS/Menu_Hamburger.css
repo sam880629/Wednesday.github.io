@@ -15,6 +15,7 @@ html{
     background-color: #0f4c5c;
     font-size: 0px;
     display: flex;
+    justify-content: space-around;
     text-align: center;
 }
  
@@ -144,6 +145,7 @@ main {
 .menu_content div {
     display: flex;
     margin-top: 50px;
+    margin-bottom: 40px;
     border-radius: 5px;
 }
 
@@ -227,7 +229,7 @@ main {
     justify-content: space-around;
     flex-direction: row;
     text-align: center;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 /* 聯絡資訊 */
